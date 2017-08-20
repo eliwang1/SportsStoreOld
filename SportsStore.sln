@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore", "SportsStore\SportsStore.csproj", "{30B7987D-893F-4430-BF32-BC349D174704}"
-EndProject
 Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SportsStore.Frontend", "SportsStore.Frontend\", "{67260D4E-D0E8-4312-B179-7255EF42234E}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.2"
@@ -27,20 +25,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SportsStore.Frontend", "Spo
 		DefaultWebSiteLanguage = "Visual C#"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsStore.WebApi", "SportsStore.WebApi\SportsStore.WebApi.csproj", "{768A5F6B-2A8D-4EC4-AF55-89A6059EA14B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{30B7987D-893F-4430-BF32-BC349D174704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{30B7987D-893F-4430-BF32-BC349D174704}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{30B7987D-893F-4430-BF32-BC349D174704}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{30B7987D-893F-4430-BF32-BC349D174704}.Release|Any CPU.Build.0 = Release|Any CPU
 		{67260D4E-D0E8-4312-B179-7255EF42234E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{67260D4E-D0E8-4312-B179-7255EF42234E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67260D4E-D0E8-4312-B179-7255EF42234E}.Release|Any CPU.ActiveCfg = Debug|Any CPU
 		{67260D4E-D0E8-4312-B179-7255EF42234E}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{768A5F6B-2A8D-4EC4-AF55-89A6059EA14B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{768A5F6B-2A8D-4EC4-AF55-89A6059EA14B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{768A5F6B-2A8D-4EC4-AF55-89A6059EA14B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{768A5F6B-2A8D-4EC4-AF55-89A6059EA14B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
