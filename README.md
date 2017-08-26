@@ -1,5 +1,5 @@
 # SportsStore
-To integrate AngularJS with ASP.NET WepApi.
+To integrate AngularJS with ASP.NET WepApi and NInject.
 At the end of SportsStore, an email is generated, which is a part of ASP.NET WebApi.
 To start SportsStore, run app.html under SportsStore.Frontend.
 Save cart data from memory to SQL database.
