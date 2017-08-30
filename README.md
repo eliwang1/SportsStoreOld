@@ -11,3 +11,4 @@ Contributors for Sports Store: 1. Adam Feeman, Pro AngularJS Apress
 Add invoice.html and convert it to pdf through wkhtmltopdf.
 I split SportsStore solution into two layers (or projects): SportsStore.FrontEnd and SportsStore.WebApi (Backend/Asp.net WebApi). Please see SportsStore.png.
 I further split SportsStore.WebApi into two layers (or projects): SportsStore.WebApi and SportsStore.Domain. Please see SportsStore.png.
+Move sendMail and creatPdf from OrdersController.cs to OrderRepository.cs
